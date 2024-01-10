@@ -34,7 +34,7 @@
 .blog h2,
 #avengers h2 {
   text-align: center;
-  margin: 0 0 15px 0;
+  margin: 0 0 85px 0;
   padding: 5px 0;
   font-style: italic;
   letter-spacing: 5px;
@@ -45,29 +45,17 @@
 .blog p em {
   color: #d90429;
 }
-#avengers {
-  width: 40%;
-  background: linear-gradient(red, blue);
+
+
+.characters{
+  display: grid;
+  grid-template-columns: repeat(4,1fr) ;
+  row-gap: 40px;
+margin: 130px 0;
+}
+
+.characters img{
+  width: 90%;
+  height: 100%;
   margin: 0 auto;
-  border-radius: 15px;
-  box-shadow: #edf2f4;
-}
-.characters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.characters div {
-  min-width: 400px;
-  min-height: 300px;
-  max-width: 500px;
-  max-height: 400px;
-}
-
-.characters img {
-  width: 100%;
-  height: 80%;
-  background-size: cover;
 }
